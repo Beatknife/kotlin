@@ -44,6 +44,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import java.text.NumberFormat
 import com.yahyabulat.tiptime.ui.theme.TipTimeTheme
+import org.jetbrains.annotations.VisibleForTesting
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -124,7 +125,8 @@ fun TipTimeLayout() {
     }
 }
 
-private fun calculateTip(
+@VisibleForTesting
+internal fun calculateTip(
     amount: Double,
     tipPercent: Double = 15.0,
     roundUp: Boolean

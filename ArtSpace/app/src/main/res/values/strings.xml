@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="title_mona_lisa">Mona Lisa</string>
+    <string name="artist_leonardo">Leonardo Da Vinci (1519)</string>
+    <string name="title_scream">Scream</string>
+    <string name="artist_edvard">Edvard Munch (1893)</string>
+    <string name="title_tortoise_trainer">Tortoise Trainer</string>
+    <string name="artist_osman">Osman Hamdi Bey (1906)</string>"
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+</resources>

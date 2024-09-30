@@ -92,9 +92,7 @@ fun LemonApp() {
                 modifier = Modifier
             )
         }
-
         Spacer(modifier = Modifier.height(36.dp))
-
         Text(
             text = stringResource(stringResource),
             fontSize = 18.sp,

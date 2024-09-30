@@ -38,7 +38,8 @@ class MainActivity : ComponentActivity() {
                     color = Color.hsl(
                         hue = 125f,
                         saturation = 0.32f,
-                        lightness = 0.87f)
+                        lightness = 0.87f
+                    )
                 ) {
                     BusinessCardApp(
                         logo = painterResource(id = R.drawable.android_logo),
@@ -83,7 +84,6 @@ fun BusinessCardApp(
                 modifier = Modifier
             )
         }
-
         Row(
             modifier = Modifier
                 .fillMaxWidth()

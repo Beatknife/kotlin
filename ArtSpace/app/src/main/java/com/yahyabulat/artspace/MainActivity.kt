@@ -70,11 +70,9 @@ fun ArtSpaceApp() {
                 contentScale = ContentScale.FillBounds
             )
         }
-
         Spacer(
             modifier = Modifier.padding(top = 50.dp)
         )
-
         ArtworkInfo(
             modifier = Modifier
                 .padding(horizontal = 32.dp)
@@ -83,7 +81,6 @@ fun ArtSpaceApp() {
             title = stringResource(currentTitle),
             artistName = stringResource(currentArtistInfo),
         )
-
         Row(
             modifier = Modifier
                 .padding(22.dp)

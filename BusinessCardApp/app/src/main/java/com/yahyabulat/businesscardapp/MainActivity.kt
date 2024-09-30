@@ -109,7 +109,6 @@ fun PersonalInfo(
     title: String,
     modifier: Modifier = Modifier
 ) {
-
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -130,13 +129,11 @@ fun PersonalInfo(
                 )),
             contentDescription = null
         )
-
         Text(
             text = name,
             fontSize = 48.sp,
             modifier = Modifier.padding(bottom = 8.dp)
         )
-
         Text(
             text = title,
             fontSize = 24.sp,

@@ -55,7 +55,6 @@ fun QuadrantDisplayApp() {
                 backgroundColor = Color(0xFFEADDFF),
                 modifier = Modifier.weight(1f)
             )
-
             ComposableQuadrant(
                 title = "Image composable",
                 description = "Creates a composable that lays out and draws a given Painter class object.",
@@ -71,7 +70,6 @@ fun QuadrantDisplayApp() {
                 backgroundColor = Color(0xFFB69DF8),
                 modifier = Modifier.weight(1f)
             )
-
             ComposableQuadrant(
                 title = "Column composable",
                 description = "A layout composable that places its children in a vertical sequence.",

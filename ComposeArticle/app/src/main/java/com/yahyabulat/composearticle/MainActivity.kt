@@ -61,19 +61,16 @@ fun ComposeArticleDisplay(
             painter = imagePainter,
             contentDescription = null
         )
-
         Text(
             text = title,
             modifier = Modifier.padding(16.dp),
             fontSize = 24.sp
         )
-
         Text(
             text = shortDescription,
             modifier = Modifier.padding(start = 16.dp, end = 16.dp),
             textAlign = TextAlign.Justify
         )
-
         Text(
             text = longDescription,
             modifier.padding(16.dp),

@@ -21,7 +21,6 @@ class GameViewModel: ViewModel() {
         private set
 
     private fun pickRandomWordAndShuffle(): String {
-        // Continue picking up a new random word until you get one that hasn't been used before
         currentWord = allWords.random()
         if (usedWords.contains(currentWord)) {
             return pickRandomWordAndShuffle()
